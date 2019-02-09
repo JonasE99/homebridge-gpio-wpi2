@@ -1,4 +1,4 @@
-{
+ {
 	"name": "homebridge-gpio-wpi2",
 	"version": "0.2.1",
 	"description": "Raspberry Pi GPIO plugin for Homebridge (Wiring-pi backend): https://github.com/nfarina/homebridge",
@@ -12,11 +12,11 @@
 	},
 	"engines": {
 		"node": ">=6.8.1",
-		"homebridge": ">=0.4.6"
+		"homebridge": ">=0.4.44"
 	},
 	"dependencies": {
-		"node-wiring-pi": "^0.0.3",
-		"sleep": "^5.1.0",
-		"epoll" : "^2.0.6"
+		"node-wiring-pi": "^0.0.4",
+		"sleep": "^5.1.1",
+		"epoll" : "^2.0.1"
 	}
 }
